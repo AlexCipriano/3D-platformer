@@ -62,6 +62,7 @@
      <Compile Include="Assets\Main Menu\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Main Menu\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Main Menu\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Scripts\FirstPersonCam.cs" />
      <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
