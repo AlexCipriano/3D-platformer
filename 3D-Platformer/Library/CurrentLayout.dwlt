@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -41,9 +41,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1920
+    height: 1007
+  m_MinSize: {x: 950, y: 392}
+=======
     width: 1752
     height: 894
   m_MinSize: {x: 950, y: 300}
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -86,12 +92,25 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
+    width: 1920
+    height: 957
+  m_MinSize: {x: 1113, y: 342}
+  m_MaxSize: {x: 22008, y: 10021}
+  vertical: 0
+  controlID: 33
+=======
     width: 1752
     height: 844
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 55
+=======
+  controlID: 66
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
+>>>>>>> 05d8346d14c1b4e4d9ac08a1221b0e0ee4d20501
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,12 +149,25 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 908
+    height: 957
+  m_MinSize: {x: 402, y: 342}
+  m_MaxSize: {x: 4002, y: 6090}
+  vertical: 1
+  controlID: 34
+=======
     width: 804
     height: 844
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 34
+=======
+  controlID: 116
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
+>>>>>>> 05d8346d14c1b4e4d9ac08a1221b0e0ee4d20501
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,10 +184,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 804
     y: 0
+<<<<<<< HEAD
+    width: 308
+    height: 957
+=======
     width: 281
     height: 844
+<<<<<<< HEAD
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
+=======
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 05d8346d14c1b4e4d9ac08a1221b0e0ee4d20501
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -203,7 +245,11 @@ MonoBehaviour:
     x: 1475
     y: 0
     width: 277
+<<<<<<< HEAD
+    height: 957
+=======
     height: 844
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -227,6 +273,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 908
+    height: 491
+  m_MinSize: {x: 402, y: 121}
+  m_MaxSize: {x: 2050, y: 2069}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 12}
+  m_Selected: 1
+  m_LastSelected: 0
+=======
     width: 804
     height: 433
   m_MinSize: {x: 202, y: 221}
@@ -237,6 +295,7 @@ MonoBehaviour:
   - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -284,10 +343,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 0
+    y: 92
+    width: 906
+    height: 470
+=======
     x: 8
     y: 99
     width: 802
     height: 412
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -320,7 +386,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 6af5ffff9efbffff00000000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 86fbffff00000000
+=======
+    m_ExpandedIDs: ac4bfeffae4bfeffb857feff0663feffa467feff246afeffc26ffeffb671feff169afeff00000000
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
+>>>>>>> 05d8346d14c1b4e4d9ac08a1221b0e0ee4d20501
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -649,7 +723,15 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0153063275, y: 0.023091966, z: -0.00035335662, w: -0.99961615}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: -0.0153063275, y: 0.023091966, z: -0.00035335662, w: -0.99961615}
+=======
+<<<<<<< HEAD
+    m_Value: {x: 0.017944157, y: 0.7532957, z: -0.6571153, w: 0.020570485}
+=======
+    m_Value: {x: -0.004810968, y: -0.000903262, z: 0.000004576557, w: -0.9999881}
+>>>>>>> c8b33ba476653b16a8c4fe19d823778e80ea2ebe
+>>>>>>> 05d8346d14c1b4e4d9ac08a1221b0e0ee4d20501
   m_Size:
     m_Target: 23.334524
     speed: 2
