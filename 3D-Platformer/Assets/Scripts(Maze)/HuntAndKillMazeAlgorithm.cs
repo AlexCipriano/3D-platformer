@@ -56,12 +56,12 @@ public class HuntAndKillMazeAlgorithm : MazeAlgorithm {
 	}
 
 	private void Hunt() {
-		courseComplete = true; // Set it to this, and see if we can prove otherwise below!
+		courseComplete = true; // Set it to this, and see if we can prove otherwise below
 
 		for (int r = 0; r < mazeRows; r++) {
 			for (int c = 0; c < mazeColumns; c++) {
 				if (!mazeCells [r, c].visited && CellHasAnAdjacentVisitedCell(r,c)) {
-					courseComplete = false; // Yep, we found something so definitely do another Kill cycle.
+					courseComplete = false; // Kill cycle 
 					currentRow = r;
 					currentColumn = c;
 					DestroyAdjacentWall (currentRow, currentColumn);

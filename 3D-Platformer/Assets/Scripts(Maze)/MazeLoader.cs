@@ -8,7 +8,7 @@ public class MazeLoader : MonoBehaviour {
 
 	private MazeCell[,] mazeCells;
 
-	// Use this for initialization
+	//initialization
 	void Start () {
 		InitializeMaze ();
 
@@ -28,7 +28,7 @@ public class MazeLoader : MonoBehaviour {
 			for (int c = 0; c < mazeColumns; c++) {
 				mazeCells [r, c] = new MazeCell ();
 
-				// For now, use the same wall object for the floor!
+				//Same wall object for the floor
 				mazeCells [r, c] .floor = Instantiate (wall, new Vector3 (r*size, -(size/2f), c*size), Quaternion.identity) as GameObject;
 				mazeCells [r, c] .floor.name = "Floor " + r + "," + c;
 				mazeCells [r, c] .floor.transform.Rotate (Vector3.right, 90f);
