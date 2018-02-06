@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/Scenes/Matt.unity
+  isLoaded: 1
+  isActive: 1
+>>>>>>> 923ed7e2e070aa14b6b789ee12bd2bed41d59797
