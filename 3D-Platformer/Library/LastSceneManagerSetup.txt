@@ -1,8 +1,1 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Eric.unity
-=======
-- path: Assets/Scenes/Tin.unity
->>>>>>> 107f3fe94cb734137c57ae80e8c39b63e347b386
-  isLoaded: 1
-  isActive: 1
+sceneSetups: []
