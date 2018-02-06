@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/GemExample/Scenes/Gems.unity
+- path: Assets/Scenes/Matt.unity
   isLoaded: 1
   isActive: 1
