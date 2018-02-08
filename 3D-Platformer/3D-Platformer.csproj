@@ -302,9 +302,9 @@
     <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\MazeLoader.cs" />
     <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\PlayerController.cs" />
     <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\ProceduralNumberGenerator.cs" />
-    <Compile Include="Assets\Scripts(MazeLevelTwo)\MapGenerator.cs" />
-    <Compile Include="Assets\Scripts(MazeLevelTwo)\MazeDisplay.cs" />
-    <Compile Include="Assets\Scripts(MazeLevelTwo)\RecursionExample.cs" />
+    <Compile Include="Assets\Scenes\Scripts(MazeLevelTwo)\MapGenerator.cs" />
+    <Compile Include="Assets\Scenes\Scripts(MazeLevelTwo)\MazeDisplay.cs" />
+    <Compile Include="Assets\Scenes\Scripts(MazeLevelTwo)\RecursionExample.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
