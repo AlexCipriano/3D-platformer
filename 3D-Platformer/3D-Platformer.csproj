@@ -295,16 +295,6 @@
     <Compile Include="Assets\Main Menu\Scripts\ScrollDetailTexture.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Main Menu\Scripts\TiltWindow.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\FirstPersonCam.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\HuntAndKillMazeAlgorithm.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\MazeAlgorithm.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\MazeCell.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\MazeLoader.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\PlayerController.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelOne)\ProceduralNumberGenerator.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelTwo)\MapGenerator.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelTwo)\MazeDisplay.cs" />
-    <Compile Include="Assets\Scenes\Scripts(MazeLevelTwo)\RecursionExample.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -349,6 +339,16 @@
     <Compile Include="Assets\SubAssets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\SubAssets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\SubAssets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\FirstPersonCam.cs" />
+    <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\HuntAndKillMazeAlgorithm.cs" />
+    <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\MazeAlgorithm.cs" />
+    <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\MazeCell.cs" />
+    <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\MazeLoader.cs" />
+    <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\PlayerController.cs" />
+    <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\ProceduralNumberGenerator.cs" />
+    <Compile Include="Assets\WallForMazeLevelTwo\Scripts(MazeLevelTwo)\MapGenerator.cs" />
+    <Compile Include="Assets\WallForMazeLevelTwo\Scripts(MazeLevelTwo)\MazeDisplay.cs" />
+    <Compile Include="Assets\WallForMazeLevelTwo\Scripts(MazeLevelTwo)\RecursionExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Arms\Credit.txt" />
