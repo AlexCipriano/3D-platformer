@@ -27,7 +27,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
-
+        [SerializeField] private Transform trans;
         private Camera m_Camera;
         private bool m_Jump;
         private float m_YRotation;
@@ -41,7 +41,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-
+        
         // Use this for initialization
         private void Start()
         {
@@ -55,6 +55,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            
         }
 
 
@@ -133,6 +134,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_MouseLook.UpdateCursorLock();
         }
 
+        void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("collectible"))
+            {
+                other.gameObject.SetActive(false);
+            }
+            if (other.gameObject.CompareTag("kill zone"))
+            {
+
+                trans.position = new Vector3(0f, 3f, 0f);
+            }
+        }
 
         private void PlayJumpSound()
         {
@@ -254,6 +267,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 return;
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
+            }
         }
     }
-}
