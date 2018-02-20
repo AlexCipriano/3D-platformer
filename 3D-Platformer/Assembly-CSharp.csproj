@@ -130,7 +130,6 @@
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wood-877000.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\patch-924648.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\brick-957827.shader" />
-     <None Include="Assets\WallForMazeLevelThree\Readme.txt" />
      <None Include="Assets\Arms\Credit.txt" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wood-877365.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\stone-805287.shader" />
