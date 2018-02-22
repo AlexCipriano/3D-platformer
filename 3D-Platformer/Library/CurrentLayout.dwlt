@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1007
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -88,10 +88,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 957
-  m_MinSize: {x: 911, y: 442}
-  m_MaxSize: {x: 22006, y: 10021}
+  m_MinSize: {x: 917, y: 442}
+  m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 143
+  controlID: 112
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 27
+  controlID: 10
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,8 +154,8 @@ MonoBehaviour:
     y: 0
     width: 243
     height: 957
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -204,8 +204,8 @@ MonoBehaviour:
     y: 0
     width: 286
     height: 957
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -318,9 +318,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 1e080000
     m_LastClickedID: 0
-    m_ExpandedIDs: d6c1eeff7e34efff1c7cefff1007f0ff2a4df0ff6251f0ff8c52f0ff6491f0ff8a2ffaff4a31faffc2e3fbffa4ecfbff005bfefff05dfeff625ffeffa63dffff44cdffff9efbffff000000002a5a00003e5a0000545a00008ca10000
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,19 +416,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/AssetsforLevelFive/Floorsetccc/Prefabs/Crypt
+    - Assets/SubAssets/Utility
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/AssetsforLevelFive/Floorsetccc/Prefabs/Crypt
+  - Assets/SubAssets/Utility
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Coding Projects\3D-platformer\3D-Platformer
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8c80000
-    m_LastClickedID: 51432
-    m_ExpandedIDs: 000000002a2800008c38000030440000744700004a480000804e0000fc4f000032500000785000003a5200009e580000a2580000a6580000bac80000bec800004edf000000ca9a3bffffff7f
+    m_SelectedIDs: 6a280000
+    m_LastClickedID: 10346
+    m_ExpandedIDs: 000000002c280000e22900006c2e0000a0360000fe370000103900001e390000d63a00000a3b0000a4480000564c0000484d00001c4e0000f0540000ae56000036570000985700001e5a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -456,7 +456,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a2800008c38000038430000744700004a480000804e0000fc4f00003250000078500000
+    m_ExpandedIDs: 000000002c280000e22900006c2e0000a0360000103900001e390000d63a00000a3b0000a4480000564c0000484d0000f0540000ae56000036570000985700001e5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,7 +508,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 331}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 212
 --- !u!114 &16
@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.507372, y: -0.4863393, z: 0.44390652, w: 0.555873}
     speed: 2
-    m_Value: {x: 0.507372, y: -0.4863393, z: 0.44390652, w: 0.555873}
+    m_Value: {x: -0.507372, y: 0.48633933, z: -0.44390652, w: -0.555873}
   m_Size:
     m_Target: 462.9917
     speed: 2
