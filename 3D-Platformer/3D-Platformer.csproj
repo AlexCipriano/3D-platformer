@@ -291,6 +291,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AssetsforLevelFive\MakeSomeNoise.cs" />
+    <Compile Include="Assets\AssetsforLevelFive\WaterPlaneGen.cs" />
     <Compile Include="Assets\GemExample\Scripts\DemoTimeOfDay.cs" />
     <Compile Include="Assets\GemExample\Scripts\Orbit.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ActiveStateToggler.cs" />
