@@ -299,6 +299,7 @@
   <ItemGroup>
     <Compile Include="Assets\AssetsforLevelFive\MakeSomeNoise.cs" />
     <Compile Include="Assets\AssetsforLevelFive\WaterPlaneGen.cs" />
+    <Compile Include="Assets\AssetsforLevelSeven\Demo\cameraMove.cs" />
     <Compile Include="Assets\GemExample\Scripts\DemoTimeOfDay.cs" />
     <Compile Include="Assets\GemExample\Scripts\Orbit.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ActiveStateToggler.cs" />
@@ -378,6 +379,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Arms\Credit.txt" />
+    <None Include="Assets\AssetsforLevelSeven\Demo\Read me01.txt" />
+    <None Include="Assets\AssetsforLevelSix\Sci-fi_platforms.txt" />
     <None Include="Assets\Gem\Shaders\Gem.shader" />
     <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />

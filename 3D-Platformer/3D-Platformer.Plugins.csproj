@@ -295,6 +295,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Arms\Credit.txt" />
+    <None Include="Assets\AssetsforLevelSeven\Demo\Read me01.txt" />
+    <None Include="Assets\AssetsforLevelSix\Sci-fi_platforms.txt" />
     <None Include="Assets\Gem\Shaders\Gem.shader" />
     <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
