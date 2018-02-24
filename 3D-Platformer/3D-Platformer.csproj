@@ -297,8 +297,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AssetsforLevelFive\MakeSomeNoise.cs" />
-    <Compile Include="Assets\AssetsforLevelFive\WaterPlaneGen.cs" />
     <Compile Include="Assets\AssetsforLevelSeven\Demo\cameraMove.cs" />
     <Compile Include="Assets\GemExample\Scripts\DemoTimeOfDay.cs" />
     <Compile Include="Assets\GemExample\Scripts\Orbit.cs" />
