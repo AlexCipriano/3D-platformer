@@ -41,7 +41,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-        
+
+        public Transform spawnPosition;
+
         // Use this for initialization
         private void Start()
         {
@@ -136,14 +138,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag("collectible"))
+            if (other.gameObject.CompareTag("Collectible"))
             {
                 other.gameObject.SetActive(false);
             }
-            if (other.gameObject.CompareTag("kill zone"))
+            if (other.gameObject.CompareTag("Kill Zone"))
             {
 
-                trans.position = new Vector3(0f, 3f, 0f);
+                trans.position = spawnPosition.position;
             }
         }
 
@@ -212,6 +214,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             m_Camera.transform.localPosition = newCameraPosition;
         }
+
+        
 
 
         private void GetInput(out float speed)
