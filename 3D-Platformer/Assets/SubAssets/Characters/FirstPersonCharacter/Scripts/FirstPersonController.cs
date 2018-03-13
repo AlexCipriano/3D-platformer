@@ -142,10 +142,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 other.gameObject.SetActive(false);
             }
+            if (other.gameObject.CompareTag("Checkpoint")) 
+            {
+                this.spawnPosition = other.transform;
+            }
             if (other.gameObject.CompareTag("Kill Zone"))
             {
 
-                trans.position = spawnPosition.position;
+                this.trans.position = spawnPosition.position;
             }
         }
 
