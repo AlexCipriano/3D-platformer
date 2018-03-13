@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/LevelFour.unity
+=======
+- path: Assets/Scenes/Eric.unity
+>>>>>>> bfcf8386c001c016553d0a65596429ae5c967163
   isLoaded: 1
   isActive: 1
