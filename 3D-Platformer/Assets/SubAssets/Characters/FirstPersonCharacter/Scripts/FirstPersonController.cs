@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
@@ -43,6 +44,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private AudioSource m_AudioSource;
 
         public Transform spawnPosition;
+        public int Count;
+        [SerializeField] Text countText;
 
         // Use this for initialization
         private void Start()
@@ -57,7 +60,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
-            
+            Count = 0;
+            SetCountText();
         }
 
 
@@ -136,11 +140,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_MouseLook.UpdateCursorLock();
         }
 
+        void SetCountText()
+        {
+            countText.text = "Gems: " + Count.ToString();
+            
+        }
+
         void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.CompareTag("Collectible"))
             {
                 other.gameObject.SetActive(false);
+                Count = Count + 1;
+                SetCountText();
             }
             if (other.gameObject.CompareTag("Checkpoint")) 
             {
