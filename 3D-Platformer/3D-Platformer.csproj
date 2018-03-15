@@ -305,6 +305,8 @@
     <Compile Include="Assets\Main Menu\Scripts\ScrollDetailTexture.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Main Menu\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\Player &amp; Camera\CameraController.cs" />
+    <Compile Include="Assets\Player &amp; Camera\Player_Controller.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
