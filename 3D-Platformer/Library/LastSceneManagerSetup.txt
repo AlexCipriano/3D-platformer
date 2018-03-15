@@ -1,12 +1,11 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+sceneSetups: []
+=======
+=======
+>>>>>>> 3a704258f39e07508aacad6f77bd45549e1733e6
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/Eric.unity
-=======
 - path: Assets/Scenes/LevelFour.unity
->>>>>>> 72eaafe091ec68a1eec190701470e3b0c7ea3c08
-=======
-- path: Assets/Scenes/LevelFour.unity
->>>>>>> 03c147f5555f6120968104a46db107690366dc37
   isLoaded: 1
   isActive: 1
+>>>>>>> 3a704258f39e07508aacad6f77bd45549e1733e6
