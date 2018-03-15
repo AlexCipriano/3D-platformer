@@ -1,14 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 sceneSetups: []
-=======
-=======
->>>>>>> 3a704258f39e07508aacad6f77bd45549e1733e6
-=======
->>>>>>> 3a704258f39e07508aacad6f77bd45549e1733e6
-sceneSetups:
-- path: Assets/Scenes/LevelFour.unity
-  isLoaded: 1
-  isActive: 1
->>>>>>> 3a704258f39e07508aacad6f77bd45549e1733e6
