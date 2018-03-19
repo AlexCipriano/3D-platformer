@@ -51,6 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AssetsforLevelFive\loopForLevelFive.cs" />
+     <Compile Include="Assets\AssetsforLevelSeven\Demo\cameraMove.cs" />
+     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\EmitterPositionController.cs" />
+     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\FXDemoController.cs" />
      <Compile Include="Assets\GemExample\Scripts\DemoTimeOfDay.cs" />
      <Compile Include="Assets\GemExample\Scripts\Orbit.cs" />
      <Compile Include="Assets\Main Menu\Scripts\ActiveStateToggler.cs" />
@@ -64,6 +68,8 @@
      <Compile Include="Assets\Main Menu\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Main Menu\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Main Menu\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Player &amp; Camera\CameraController.cs" />
+     <Compile Include="Assets\Player &amp; Camera\Player_Controller.cs" />
      <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -130,23 +136,29 @@
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wood-877000.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\patch-924648.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\brick-957827.shader" />
+     <None Include="Assets\WallForMazeLevelCastle\Readme.txt" />
      <None Include="Assets\Arms\Credit.txt" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wood-877365.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\stone-805287.shader" />
      <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\SubAssets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\brick-957823.shader" />
+     <None Include="Assets\AssetsforLevelSeven\Demo\Read me01.txt" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\brick-807728.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wood-938698.shader" />
      <None Include="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\AssetsforLevelSix\Winter Zone Effects\readme.txt" />
+     <None Include="Assets\AssetsforLevelSix\Sci-fi_platforms.txt" />
      <None Include="Assets\WallForMazeLevelTwo\README.txt" />
      <None Include="Assets\SubAssets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\AssetsforLevelSix\sky5X\README.txt" />
      <None Include="Assets\SubAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wall-846013.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\tile-846018.shader" />
      <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
      <None Include="Assets\SubAssets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\bricks-868344.shader" />
+     <None Include="Assets\Max\Document\readme.txt" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\texture-709723.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wall-617961.shader" />
      <None Include="Assets\SubAssets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
@@ -157,6 +169,7 @@
      <None Include="Assets\SubAssets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\shading-671263.shader" />
      <None Include="Assets\SubAssets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\SkyboxAssets\SkySerie Freebie\Hdri setup.txt" />
      <None Include="Assets\Gem\Shaders\Gem.shader" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
