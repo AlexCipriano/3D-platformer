@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/lvlThree.unity
-=======
-- path: Assets/Scenes/LevelFour.unity
->>>>>>> 4899fffe6624dc9c06f7e5f19cd742bafa4c1a88
+- path: Assets/Scenes/LevelFive.unity
   isLoaded: 1
   isActive: 1
