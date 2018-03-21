@@ -307,6 +307,18 @@
     <Compile Include="Assets\Main Menu\Scripts\TiltWindow.cs" />
     <Compile Include="Assets\Player &amp; Camera\CameraController.cs" />
     <Compile Include="Assets\Player &amp; Camera\Player_Controller.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraRig.cs" />
+    <Compile Include="Assets\Scripts\Characters\AI.cs" />
+    <Compile Include="Assets\Scripts\Characters\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\Characters\CharacterStats.cs" />
+    <Compile Include="Assets\Scripts\Characters\FootstepSounds.cs" />
+    <Compile Include="Assets\Scripts\GameManagement\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameManagement\SoundController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerUI.cs" />
+    <Compile Include="Assets\Scripts\Player\UserInput.cs" />
+    <Compile Include="Assets\Scripts\Utilities\TerrainSurface.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Weapons\WeaponHandler.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -372,7 +384,6 @@
     <Compile Include="Assets\WallForMazeLevelTwo\Scripts(MazeLevelTwo)\RecursionExample.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Arms\Credit.txt" />
     <None Include="Assets\AssetsforLevelSeven\Demo\Read me01.txt" />
     <None Include="Assets\AssetsforLevelSix\Sci-fi_platforms.txt" />
     <None Include="Assets\AssetsforLevelSix\Winter Zone Effects\readme.txt" />
@@ -381,7 +392,6 @@
     <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
-    <None Include="Assets\Max\Document\readme.txt" />
     <None Include="Assets\SkyboxAssets\SkySerie Freebie\Hdri setup.txt" />
     <None Include="Assets\SubAssets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\SubAssets\Characters\RollerBall\RollerBallGuidelines.txt" />

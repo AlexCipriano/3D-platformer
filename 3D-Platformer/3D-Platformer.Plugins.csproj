@@ -285,7 +285,6 @@
     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Arms\Credit.txt" />
     <None Include="Assets\AssetsforLevelSeven\Demo\Read me01.txt" />
     <None Include="Assets\AssetsforLevelSix\Sci-fi_platforms.txt" />
     <None Include="Assets\AssetsforLevelSix\Winter Zone Effects\readme.txt" />
@@ -294,7 +293,6 @@
     <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
-    <None Include="Assets\Max\Document\readme.txt" />
     <None Include="Assets\SkyboxAssets\SkySerie Freebie\Hdri setup.txt" />
     <None Include="Assets\SubAssets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\SubAssets\Characters\RollerBall\RollerBallGuidelines.txt" />
