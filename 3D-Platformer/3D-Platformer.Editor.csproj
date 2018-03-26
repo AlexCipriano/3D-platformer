@@ -305,9 +305,11 @@
     <None Include="Assets\AssetsforLevelSix\Winter Zone Effects\readme.txt" />
     <None Include="Assets\AssetsforLevelSix\sky5X\README.txt" />
     <None Include="Assets\Gem\Shaders\Gem.shader" />
+    <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+    <None Include="Assets\SkyboxAssets\SkyBox HDR\instructions.txt" />
     <None Include="Assets\SkyboxAssets\SkySerie Freebie\Hdri setup.txt" />
     <None Include="Assets\SubAssets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\SubAssets\Characters\RollerBall\RollerBallGuidelines.txt" />

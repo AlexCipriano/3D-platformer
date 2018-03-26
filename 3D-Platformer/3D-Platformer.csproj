@@ -289,11 +289,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AssetsforLevelFive\loopForLevelFive.cs" />
+    <Compile Include="Assets\AssetsforLevelFive\ReflectController.cs" />
     <Compile Include="Assets\AssetsforLevelSeven\Demo\cameraMove.cs" />
     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\EmitterPositionController.cs" />
     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\FXDemoController.cs" />
     <Compile Include="Assets\GemExample\Scripts\DemoTimeOfDay.cs" />
     <Compile Include="Assets\GemExample\Scripts\Orbit.cs" />
+    <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
+    <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ChangeColor.cs" />
@@ -319,6 +322,7 @@
     <Compile Include="Assets\Scripts\Utilities\TerrainSurface.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponHandler.cs" />
+    <Compile Include="Assets\SkyboxAssets\SkyBox HDR\examplescene.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -358,14 +362,12 @@
     <Compile Include="Assets\SubAssets\Utility\DynamicShadowSettings.cs" />
     <Compile Include="Assets\SubAssets\Utility\EventSystemChecker.cs" />
     <Compile Include="Assets\SubAssets\Utility\FollowTarget.cs" />
-    <Compile Include="Assets\SubAssets\Utility\ForcedReset.cs" />
     <Compile Include="Assets\SubAssets\Utility\FOVKick.cs" />
     <Compile Include="Assets\SubAssets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\SubAssets\Utility\LerpControlledBob.cs" />
     <Compile Include="Assets\SubAssets\Utility\ObjectResetter.cs" />
     <Compile Include="Assets\SubAssets\Utility\ParticleSystemDestroyer.cs" />
     <Compile Include="Assets\SubAssets\Utility\PlatformSpecificContent.cs" />
-    <Compile Include="Assets\SubAssets\Utility\SimpleActivatorMenu.cs" />
     <Compile Include="Assets\SubAssets\Utility\SimpleMouseRotator.cs" />
     <Compile Include="Assets\SubAssets\Utility\SmoothFollow.cs" />
     <Compile Include="Assets\SubAssets\Utility\TimedObjectActivator.cs" />
@@ -389,9 +391,11 @@
     <None Include="Assets\AssetsforLevelSix\Winter Zone Effects\readme.txt" />
     <None Include="Assets\AssetsforLevelSix\sky5X\README.txt" />
     <None Include="Assets\Gem\Shaders\Gem.shader" />
+    <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+    <None Include="Assets\SkyboxAssets\SkyBox HDR\instructions.txt" />
     <None Include="Assets\SkyboxAssets\SkySerie Freebie\Hdri setup.txt" />
     <None Include="Assets\SubAssets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\SubAssets\Characters\RollerBall\RollerBallGuidelines.txt" />
