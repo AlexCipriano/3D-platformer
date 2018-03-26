@@ -288,6 +288,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AssetsforLevelFive\Laterns and candles\scripts\CameraFacing.cs" />
+    <Compile Include="Assets\AssetsforLevelFive\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\AssetsforLevelFive\loopForLevelFive.cs" />
     <Compile Include="Assets\AssetsforLevelFive\ReflectController.cs" />
     <Compile Include="Assets\AssetsforLevelSeven\Demo\cameraMove.cs" />
@@ -295,8 +297,6 @@
     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\FXDemoController.cs" />
     <Compile Include="Assets\GemExample\Scripts\DemoTimeOfDay.cs" />
     <Compile Include="Assets\GemExample\Scripts\Orbit.cs" />
-    <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
-    <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ChangeColor.cs" />
@@ -386,12 +386,12 @@
     <Compile Include="Assets\WallForMazeLevelTwo\Scripts(MazeLevelTwo)\RecursionExample.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AssetsforLevelFive\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\AssetsforLevelSeven\Demo\Read me01.txt" />
     <None Include="Assets\AssetsforLevelSix\Sci-fi_platforms.txt" />
     <None Include="Assets\AssetsforLevelSix\Winter Zone Effects\readme.txt" />
     <None Include="Assets\AssetsforLevelSix\sky5X\README.txt" />
     <None Include="Assets\Gem\Shaders\Gem.shader" />
-    <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
