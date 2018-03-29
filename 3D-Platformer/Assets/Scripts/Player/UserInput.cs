@@ -46,21 +46,9 @@ public class UserInput : MonoBehaviour
     {
         characterMove = GetComponent<CharacterMovement>();
         weaponHandler = GetComponent<WeaponHandler>();
-		SetupCrosshairs ();
+		
     }
 
-	void SetupCrosshairs () {
-		if (weaponHandler.weaponsList.Count > 0) {
-			foreach (Weapon wep in weaponHandler.weaponsList) {
-				GameObject prefab = wep.weaponSettings.crosshairPrefab;
-				if (prefab != null) {
-					GameObject clone = (GameObject)Instantiate (prefab);
-					crosshairPrefabMap.Add (wep, clone);
-					ToggleCrosshair (false, wep);
-				}
-			}
-		}
-	}
 
     // Update is called once per frame
     void Update()
