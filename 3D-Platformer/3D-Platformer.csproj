@@ -292,6 +292,7 @@
     <Compile Include="Assets\AssetsforLevelFive\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\AssetsforLevelFive\loopForLevelFive.cs" />
     <Compile Include="Assets\AssetsforLevelFive\ReflectController.cs" />
+    <Compile Include="Assets\AssetsforLevelFour\TrapOpen.cs" />
     <Compile Include="Assets\AssetsforLevelSeven\Demo\cameraMove.cs" />
     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\EmitterPositionController.cs" />
     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\FXDemoController.cs" />
@@ -312,6 +313,7 @@
     <Compile Include="Assets\Main Menu\Scripts\ScrollDetailTexture.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Main Menu\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\MoveRandomly.cs" />
     <Compile Include="Assets\Player &amp; Camera\CameraController.cs" />
     <Compile Include="Assets\Player &amp; Camera\Player_Controller.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraRig.cs" />
