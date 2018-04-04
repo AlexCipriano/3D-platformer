@@ -70,18 +70,6 @@
      <Compile Include="Assets\Main Menu\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\Player &amp; Camera\CameraController.cs" />
      <Compile Include="Assets\Player &amp; Camera\Player_Controller.cs" />
-     <Compile Include="Assets\Scripts\Camera\CameraRig.cs" />
-     <Compile Include="Assets\Scripts\Characters\AI.cs" />
-     <Compile Include="Assets\Scripts\Characters\CharacterMovement.cs" />
-     <Compile Include="Assets\Scripts\Characters\CharacterStats.cs" />
-     <Compile Include="Assets\Scripts\Characters\FootstepSounds.cs" />
-     <Compile Include="Assets\Scripts\GameManagement\GameController.cs" />
-     <Compile Include="Assets\Scripts\GameManagement\SoundController.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerUI.cs" />
-     <Compile Include="Assets\Scripts\Player\UserInput.cs" />
-     <Compile Include="Assets\Scripts\Utilities\TerrainSurface.cs" />
-     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
-     <Compile Include="Assets\Scripts\Weapons\WeaponHandler.cs" />
      <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -149,6 +137,7 @@
      <None Include="Assets\WallForMazeLevelTwo\Shaders\patch-924648.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\brick-957827.shader" />
      <None Include="Assets\WallForMazeLevelCastle\Readme.txt" />
+     <None Include="Assets\Arms\Credit.txt" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wood-877365.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\stone-805287.shader" />
      <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
@@ -169,6 +158,7 @@
      <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
      <None Include="Assets\SubAssets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\bricks-868344.shader" />
+     <None Include="Assets\Max\Document\readme.txt" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\texture-709723.shader" />
      <None Include="Assets\WallForMazeLevelTwo\Shaders\wall-617961.shader" />
      <None Include="Assets\SubAssets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
