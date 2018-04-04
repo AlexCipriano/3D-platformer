@@ -2,16 +2,16 @@
 using System.Collections;
 public class loopForLevelFive : MonoBehaviour {
 
-    private Vector3 MovingDirection = Vector3.up;
+    private Vector3 MovingDirection = Vector3.forward;
 
     void Update() {
         gameObject.transform.Translate(MovingDirection * Time.smoothDeltaTime);
 
-        if (gameObject.transform.position.y > 72) {
-            MovingDirection = Vector3.down;
+        if (gameObject.transform.position.z > -200) {
+            MovingDirection = Vector3.back;
         }
-        else if (gameObject.transform.position.y < 61) {
-            MovingDirection = Vector3.up;
+        else if (gameObject.transform.position.z < -2000) {
+            MovingDirection = Vector3.forward;
         }
     }
 }

@@ -4,10 +4,14 @@ using System;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(CharacterController))]
+
 public class CharacterMovement : MonoBehaviour
 {
     Animator animator;
     CharacterController characterController;
+	public Transform currentPosition;
+	public Vector3 spawnPosition;
+	public CharacterStats stats;
 
     [System.Serializable]
     public class AnimationSettings
@@ -47,7 +51,6 @@ public class CharacterMovement : MonoBehaviour
     bool jumping;
     bool resetGravity;
     float gravity;
-
 	bool isGrounded () {
 		RaycastHit hit;
 		Vector3 start = transform.position + transform.up;
@@ -70,6 +73,7 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+		spawnPosition = currentPosition.position;
     }
 
     // Update is called once per frame
@@ -90,6 +94,24 @@ public class CharacterMovement : MonoBehaviour
 		animator.SetBool(animations.groundedBool, isGrounded());
         animator.SetBool(animations.jumpBool, jumping);
     }
+
+	void OnTriggerEnter(Collider other) 
+	{
+		if (other.gameObject.CompareTag ("Collectible"))
+		{
+			other.gameObject.SetActive (false);
+			stats.gemCount = stats.gemCount + 1;
+		}
+		if (other.gameObject.CompareTag ("Kill Zone"))
+		{
+			transform.position = spawnPosition;
+			stats.health = stats.health - 1;
+		}
+		if (other.gameObject.CompareTag ("Checkpoint"))
+		{
+			spawnPosition = other.gameObject.transform.position;
+		}
+	}
 
 	void AirControl(float forward, float strafe) {
 		if (isGrounded () == false) {
@@ -153,6 +175,8 @@ public class CharacterMovement : MonoBehaviour
 
         characterController.Move(gravityVector * Time.deltaTime);
     }
+
+
 
     //Setup the animator with the child avatar
     void SetupAnimator()
