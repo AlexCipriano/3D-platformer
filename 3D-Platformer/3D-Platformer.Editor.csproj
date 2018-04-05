@@ -298,6 +298,7 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\CameraRigEditor.cs" />
     <Compile Include="Assets\Editor\WeaponEditor.cs" />
+    <Compile Include="Assets\Mixamo\Editor\MixamoUnityImporter.cs" />
     <Compile Include="Assets\SubAssets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
