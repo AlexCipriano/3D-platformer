@@ -291,6 +291,7 @@
     <Compile Include="Assets\AssetsforLevelFive\Laterns and candles\scripts\CameraFacing.cs" />
     <Compile Include="Assets\AssetsforLevelFive\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\AssetsforLevelFive\loopForLevelFive.cs" />
+    <Compile Include="Assets\AssetsforLevelFive\loopForWhales.cs" />
     <Compile Include="Assets\AssetsforLevelFive\ReflectController.cs" />
     <Compile Include="Assets\AssetsforLevelFour\TrapOpen.cs" />
     <Compile Include="Assets\AssetsforLevelSeven\Demo\cameraMove.cs" />
