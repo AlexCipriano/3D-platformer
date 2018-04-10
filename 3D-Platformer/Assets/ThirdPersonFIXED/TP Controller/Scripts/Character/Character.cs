@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
-using Unity.SceneManager; 
+using UnityEngine.SceneManagement; 
 
 public class Character : MonoBehaviour
 {
