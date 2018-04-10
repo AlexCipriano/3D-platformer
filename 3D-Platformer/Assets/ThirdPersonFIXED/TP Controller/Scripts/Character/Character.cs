@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using Unity.SceneManager; 
 
 public class Character : MonoBehaviour
 {
     public Transform currentPosition;
     public Vector3 spawnPosition;
     public CharacterStats stats;
+
+
+
     // Serialized fields
     [SerializeField]
     private new Camera camera = null;
@@ -25,6 +29,10 @@ public class Character : MonoBehaviour
     private Vector3 moveVector;
     private Quaternion controlRotation;
     private CharacterController controller;
+    private bool inScene1;
+    private bool inScene2;
+    private bool inScene3;
+    private bool inCheckpoint;
     private bool isWalking;
     private bool isJogging;
     private bool isSprinting;
@@ -103,10 +111,42 @@ public class Character : MonoBehaviour
             stats.health = stats.health - 1;
         }
         if (other.gameObject.CompareTag("Checkpoint")) {
+            inCheckpoint = true;
             spawnPosition = other.gameObject.transform.position;
+        }
+        if (other.gameObject.CompareTag("Scene1"))
+        {
+            inScene1 = true;
+        }
+        if (other.gameObject.CompareTag("Scene1"))
+        {
+            inScene2 = true;
+        }
+        if (other.gameObject.CompareTag("Scene1"))
+        {
+            inScene3 = true;
         }
     }
 
+    void onTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Checkpoint"))
+        {
+            inCheckpoint = false;
+        }
+        if (other.gameObject.CompareTag("Scene1"))
+        {
+            inScene1 = false;
+        }
+        if (other.gameObject.CompareTag("Scene2"))
+        {
+            inScene2 = false;
+        }
+        if (other.gameObject.CompareTag("Scene3"))
+        {
+            inScene3 = false;
+        }
+    }
 
     public Camera Camera
     {
