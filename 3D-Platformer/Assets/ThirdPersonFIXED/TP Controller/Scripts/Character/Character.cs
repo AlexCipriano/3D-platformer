@@ -1,7 +1,12 @@
 ﻿using UnityEngine;
+using System.Collections;
+using System;
 
 public class Character : MonoBehaviour
 {
+    public Transform currentPosition;
+    public Vector3 spawnPosition;
+    public CharacterStats stats;
     // Serialized fields
     [SerializeField]
     private new Camera camera = null;
@@ -85,6 +90,23 @@ public class Character : MonoBehaviour
             }
         }
     }
+
+
+
+    void OnTriggerEnter(Collider other) {
+        if (other.gameObject.CompareTag("Collectible")) {
+            other.gameObject.SetActive(false);
+            stats.gemCount = stats.gemCount + 1;
+        }
+        if (other.gameObject.CompareTag("Kill Zone")) {
+            transform.position = spawnPosition;
+            stats.health = stats.health - 1;
+        }
+        if (other.gameObject.CompareTag("Checkpoint")) {
+            spawnPosition = other.gameObject.transform.position;
+        }
+    }
+
 
     public Camera Camera
     {
