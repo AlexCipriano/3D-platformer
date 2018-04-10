@@ -434,6 +434,7 @@
     <None Include="Assets\Main Menu\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Main Menu\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+    <None Include="Assets\Max\Document\readme.txt" />
     <None Include="Assets\SkyboxAssets\SkyBox HDR\instructions.txt" />
     <None Include="Assets\SkyboxAssets\SkySerie Freebie\Hdri setup.txt" />
     <None Include="Assets\SubAssets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
