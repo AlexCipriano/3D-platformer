@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
-using Unity.SceneManager; 
+using UnityEngine.SceneManagement; 
 
 public class Character : MonoBehaviour
 {
@@ -58,6 +58,28 @@ public class Character : MonoBehaviour
 
         this.UpdateHorizontalSpeed();
         this.ApplyMotion();
+
+        if(inScene1)
+        {
+            if(Input.GetKeyDown(KeyCode.F))
+            {
+                SceneManager.LoadScene("LevelOne");
+            }
+        }
+        if (inScene2)
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                SceneManager.LoadScene("LevelFour");
+            }
+        }
+        if (inScene3)
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                SceneManager.LoadScene("LevelFive");
+            }
+        }
     }
 
     #endregion Unity Methods
@@ -128,24 +150,14 @@ public class Character : MonoBehaviour
         }
     }
 
-    void onTriggerExit(Collider other)
+    void onTriggerExit()
     {
-        if (other.gameObject.CompareTag("Checkpoint"))
-        {
-            inCheckpoint = false;
-        }
-        if (other.gameObject.CompareTag("Scene1"))
-        {
-            inScene1 = false;
-        }
-        if (other.gameObject.CompareTag("Scene2"))
-        {
-            inScene2 = false;
-        }
-        if (other.gameObject.CompareTag("Scene3"))
-        {
-            inScene3 = false;
-        }
+        
+        inCheckpoint = false;
+        inScene1 = false;
+        inScene2 = false;
+        inScene3 = false;
+       
     }
 
     public Camera Camera
