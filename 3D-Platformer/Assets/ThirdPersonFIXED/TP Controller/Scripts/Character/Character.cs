@@ -11,6 +11,7 @@ public class Character : MonoBehaviour
 
 
 
+
     // Serialized fields
     [SerializeField]
     private new Camera camera = null;
@@ -40,6 +41,7 @@ public class Character : MonoBehaviour
     private float targetHorizontalSpeed; // In meters/second
     private float currentHorizontalSpeed; // In meters/second
     private float currentVerticalSpeed; // In meters/second
+    public AudioClip gem_collect;
 
     #region Unity Methods
 
@@ -50,6 +52,8 @@ public class Character : MonoBehaviour
         this.CurrentState = CharacterStateBase.GROUNDED_STATE;
 
         this.IsJogging = true;
+
+        DontDestroyOnLoad(this.gameObject);
     }
 
     protected virtual void Update()
@@ -64,7 +68,7 @@ public class Character : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.F))
             {
                 SceneManager.LoadScene("LevelOne");
-            }
+             
         }
         if (inScene2)
         {
@@ -122,9 +126,12 @@ public class Character : MonoBehaviour
     }
 
 
+    
 
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Collectible")) {
+            AudioSource.PlayClipAtPoint(gem_collect, transform.position);
+
             other.gameObject.SetActive(false);
             stats.gemCount = stats.gemCount + 1;
         }

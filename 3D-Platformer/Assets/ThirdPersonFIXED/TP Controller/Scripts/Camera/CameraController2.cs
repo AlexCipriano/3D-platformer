@@ -34,6 +34,7 @@ public class CameraController2 : MonoBehaviour
         this.rig = this.pivot.parent;
 
         this.transform.localRotation = Quaternion.identity;
+        DontDestroyOnLoad(this.gameObject);
     }
 
     protected virtual void Update()

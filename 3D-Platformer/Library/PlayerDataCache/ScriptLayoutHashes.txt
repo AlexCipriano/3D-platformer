@@ -5,6 +5,7 @@ Assets/Scenes/LevelOne.unity
 Assets/Scenes/LevelFour.unity
 Assets/Scenes/LevelFive.unity
 SceneListEnd?
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.menuController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -128,7 +129,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ActiveStateToggler
 e15732de12a2b58780fd2044e704e40d Assembly-CSharp.dll:.CameraOcclusionProtector
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SoundController
-56b4c8e5d85f593191fb6628b4c0369f Assembly-CSharp.dll:.Character
+59bfb138bc5a3ccde7a576471c0171f3 Assembly-CSharp.dll:.Character
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 c1465577256149eb2fdaaf3754ab7da9 Assembly-CSharp.dll:.TiltWindow
@@ -238,3 +239,4 @@ df55b4526d70c04de3fee4d468a03439 Assembly-CSharp.dll:.MazeDisplay
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ChangeColor
 d5e76e09ae631dd5bba4206a29bffc7d Assembly-CSharp.dll:.PlayerController
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Traprotation
