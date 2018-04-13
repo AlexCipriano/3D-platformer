@@ -41,7 +41,7 @@ public class Character : MonoBehaviour
     private float targetHorizontalSpeed; // In meters/second
     private float currentHorizontalSpeed; // In meters/second
     private float currentVerticalSpeed; // In meters/second
-    public AudioClip gem_collect;
+    public AudioClip gem_collect ;
 
     #region Unity Methods
 
@@ -55,33 +55,39 @@ public class Character : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
+    private void Start() {
+        spawnPosition = this.currentPosition.position;
+    }
 
-    protected virtual void Update()
-    {
+    protected virtual void Update() {
         this.CurrentState.Update(this);
 
         this.UpdateHorizontalSpeed();
         this.ApplyMotion();
 
-        if(inScene1)
-        {
-            if(Input.GetKeyDown(KeyCode.F))
-            {
+        if (inScene1) {
+            if (Input.GetKeyDown(KeyCode.F)) {
                 SceneManager.LoadScene("LevelOne");
-             
-        }
-        if (inScene2)
-        {
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                SceneManager.LoadScene("LevelFour");
+                SceneManager.UnloadSceneAsync("GameHub");
+
             }
-        }
-        if (inScene3)
-        {
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                SceneManager.LoadScene("LevelFive");
+            if (inScene2) {
+                if (Input.GetKeyDown(KeyCode.F)) {
+                    SceneManager.LoadScene("LevelFour");
+                    SceneManager.UnloadSceneAsync("GameHub");
+                }
+            }
+            if (inScene3) {
+                if (Input.GetKeyDown(KeyCode.F)) {
+                    SceneManager.LoadScene("LevelFive");
+                    SceneManager.UnloadSceneAsync("GameHub");
+                }
+            }
+            if (inCheckpoint) {
+                if (Input.GetKeyDown(KeyCode.F)) {
+                    SceneManager.LoadScene("GameHub");
+                    SceneManager.UnloadSceneAsync("GameHub");
+                }
             }
         }
     }
@@ -130,7 +136,7 @@ public class Character : MonoBehaviour
 
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Collectible")) {
-            AudioSource.PlayClipAtPoint(gem_collect, transform.position);
+            AudioSource.PlayClipAtPoint(gem_collect, transform.position, 0.13f);
 
             other.gameObject.SetActive(false);
             stats.gemCount = stats.gemCount + 1;

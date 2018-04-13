@@ -207,6 +207,7 @@ b1f0704fc1b542c80ecf3fa1bbf472a1 Assembly-CSharp.dll:UnityStandardAssets.Charact
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 d2af69ce28cda6fcf0b7728ae3f251b4 Assembly-CSharp.dll:UnityStandardAssets.Utility.DynamicShadowSettings
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Traprotation
 b9dcc549241faeff96b213139ab6f4f9 Assembly-CSharp.dll:.Orbit
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -239,4 +240,3 @@ df55b4526d70c04de3fee4d468a03439 Assembly-CSharp.dll:.MazeDisplay
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ChangeColor
 d5e76e09ae631dd5bba4206a29bffc7d Assembly-CSharp.dll:.PlayerController
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Traprotation
