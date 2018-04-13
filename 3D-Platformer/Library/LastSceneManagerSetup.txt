@@ -1,12 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/test.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/test.unity
-=======
-- path: Assets/Scenes/LevelFive.unity
->>>>>>> 9c062acdbc4747e42a96c168697b88d004b5a904
->>>>>>> 4de0d47c6f6a47e4e705f526a051e122f744c2a1
+- path: Assets/Scenes/GameHub.unity
   isLoaded: 1
   isActive: 1
