@@ -402,7 +402,6 @@
     <Compile Include="Assets\ThirdPersonFIXED\TP Controller\Scripts\GameController3.cs" />
     <Compile Include="Assets\ThirdPersonFIXED\TP Controller\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Traprotation.cs" />
-    <Compile Include="Assets\WalkScript.cs" />
     <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\FirstPersonCam.cs" />
     <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\HuntAndKillMazeAlgorithm.cs" />
     <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\MazeAlgorithm.cs" />
