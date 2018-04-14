@@ -297,6 +297,7 @@
     <Compile Include="Assets\AssetsforLevelSeven\Demo\cameraMove.cs" />
     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\EmitterPositionController.cs" />
     <Compile Include="Assets\AssetsforLevelSix\Winter Zone Effects\Scripts\FXDemoController.cs" />
+    <Compile Include="Assets\Foot.cs" />
     <Compile Include="Assets\Gem\Sound_Collection.cs" />
     <Compile Include="Assets\Gem\WallForMazeLevelTwo\Scripts(MazeLevelTwo)\MapGenerator.cs" />
     <Compile Include="Assets\Gem\WallForMazeLevelTwo\Scripts(MazeLevelTwo)\MazeDisplay.cs" />
@@ -401,6 +402,7 @@
     <Compile Include="Assets\ThirdPersonFIXED\TP Controller\Scripts\GameController3.cs" />
     <Compile Include="Assets\ThirdPersonFIXED\TP Controller\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Traprotation.cs" />
+    <Compile Include="Assets\WalkScript.cs" />
     <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\FirstPersonCam.cs" />
     <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\HuntAndKillMazeAlgorithm.cs" />
     <Compile Include="Assets\WallForMazeLevelOne\Scripts(MazeLevelOne)\MazeAlgorithm.cs" />
