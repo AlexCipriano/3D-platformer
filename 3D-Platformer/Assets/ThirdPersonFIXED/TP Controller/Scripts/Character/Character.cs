@@ -68,28 +68,33 @@ public class Character : MonoBehaviour
         if (inScene1) {
             if (Input.GetKeyDown(KeyCode.F)) {
                 SceneManager.LoadScene("LevelOne");
-                SceneManager.UnloadSceneAsync("GameHub");
+                inScene1 = false;
+
 
             }
-            if (inScene2) {
-                if (Input.GetKeyDown(KeyCode.F)) {
-                    SceneManager.LoadScene("LevelFour");
-                    SceneManager.UnloadSceneAsync("GameHub");
-                }
+        }
+        if (inScene2) {
+            if (Input.GetKeyDown(KeyCode.F)) {
+                SceneManager.LoadScene("LevelFour");
+                inScene2 = false;
             }
+        }
+    
             if (inScene3) {
                 if (Input.GetKeyDown(KeyCode.F)) {
                     SceneManager.LoadScene("LevelFive");
-                    SceneManager.UnloadSceneAsync("GameHub");
+                    inScene3 = false;
                 }
             }
+
             if (inCheckpoint) {
-                if (Input.GetKeyDown(KeyCode.F)) {
+                if (Input.GetKeyDown(KeyCode.G)) {
                     SceneManager.LoadScene("GameHub");
-                    SceneManager.UnloadSceneAsync("GameHub");
+                    inCheckpoint = false;
+                    
                 }
             }
-        }
+        
     }
 
     #endregion Unity Methods
@@ -153,11 +158,11 @@ public class Character : MonoBehaviour
         {
             inScene1 = true;
         }
-        if (other.gameObject.CompareTag("Scene1"))
+        if (other.gameObject.CompareTag("Scene2"))
         {
             inScene2 = true;
         }
-        if (other.gameObject.CompareTag("Scene1"))
+        if (other.gameObject.CompareTag("Scene3"))
         {
             inScene3 = true;
         }
