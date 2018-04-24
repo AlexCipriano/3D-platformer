@@ -304,6 +304,7 @@
     <Compile Include="Assets\Gem\WallForMazeLevelTwo\Scripts(MazeLevelTwo)\RecursionExample.cs" />
     <Compile Include="Assets\GemExample\Scripts\DemoTimeOfDay.cs" />
     <Compile Include="Assets\GemExample\Scripts\Orbit.cs" />
+    <Compile Include="Assets\loadSceneOnClick.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Main Menu\Scripts\ChangeColor.cs" />
@@ -319,6 +320,7 @@
     <Compile Include="Assets\MoveRandomly.cs" />
     <Compile Include="Assets\Player &amp; Camera\CameraController.cs" />
     <Compile Include="Assets\Player &amp; Camera\Player_Controller.cs" />
+    <Compile Include="Assets\QuitOnClick.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraRig.cs" />
     <Compile Include="Assets\Scripts\Characters\AI.cs" />
     <Compile Include="Assets\Scripts\Characters\CharacterMovement.cs" />
@@ -331,6 +333,7 @@
     <Compile Include="Assets\Scripts\Utilities\TerrainSurface.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponHandler.cs" />
+    <Compile Include="Assets\SelectOnInput.cs" />
     <Compile Include="Assets\SkyboxAssets\SkyBox HDR\examplescene.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
