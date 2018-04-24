@@ -107,7 +107,7 @@ public class Character : MonoBehaviour
                 }
             }
 
-            if (inCheckpoint) {
+		if (inCheckpoint) {
                 if (Input.GetKeyDown(KeyCode.F)) {
                     SceneManager.LoadScene("GameHub");
                     inCheckpoint = false;
@@ -169,8 +169,19 @@ public class Character : MonoBehaviour
             stats.gemCount = stats.gemCount + 1;
         }
         if (other.gameObject.CompareTag("Kill Zone")) {
-            transform.position = spawnPosition;
             stats.health = stats.health - 1;
+			if (stats.health == 0) {
+				stats.health = 5;
+				SceneManager.LoadScene ("GameHub");
+				inCheckpoint = false;
+				spawnPosition = new Vector3 (6f, 3f, 1.5f);
+				transform.position = spawnPosition;
+				
+			} else
+			{
+				transform.position = spawnPosition;
+			}
+
         }
         if (other.gameObject.CompareTag("Checkpoint")) {
             inCheckpoint = true;
