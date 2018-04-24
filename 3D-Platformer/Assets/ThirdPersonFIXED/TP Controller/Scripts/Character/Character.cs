@@ -42,7 +42,7 @@ public class Character : MonoBehaviour
     private float currentHorizontalSpeed; // In meters/second
     private float currentVerticalSpeed; // In meters/second
     public AudioClip gem_collect ;
-
+	public static Character instance = null;   
     #region Unity Methods
 
     protected virtual void Awake()
@@ -53,7 +53,21 @@ public class Character : MonoBehaviour
 
         this.IsJogging = true;
 
-        DontDestroyOnLoad(this.gameObject);
+		//Check if instance already exists
+		if (instance == null)
+
+			//if not, set instance to this
+			instance = this;
+
+		//If instance already exists and it's not this:
+		else if (instance != this)
+
+			//Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
+			Destroy(gameObject);    
+
+		//Sets this to not be destroyed when reloading scene
+		DontDestroyOnLoad(gameObject);
+
     }
     private void Start() {
         spawnPosition = this.currentPosition.position;
@@ -69,6 +83,8 @@ public class Character : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F)) {
                 SceneManager.LoadScene("LevelOne");
                 inScene1 = false;
+				spawnPosition = new Vector3(0f, -3f, 0f);
+				transform.position = spawnPosition;
 
 
             }
@@ -77,6 +93,8 @@ public class Character : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F)) {
                 SceneManager.LoadScene("LevelFour");
                 inScene2 = false;
+				spawnPosition = new Vector3(-17f, -7f, -96f);
+				transform.position = spawnPosition;
             }
         }
     
@@ -84,13 +102,17 @@ public class Character : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.F)) {
                     SceneManager.LoadScene("LevelFive");
                     inScene3 = false;
+					spawnPosition = new Vector3(85f, 180f, -350f);
+					transform.position = spawnPosition;
                 }
             }
 
             if (inCheckpoint) {
-                if (Input.GetKeyDown(KeyCode.G)) {
+                if (Input.GetKeyDown(KeyCode.F)) {
                     SceneManager.LoadScene("GameHub");
                     inCheckpoint = false;
+					spawnPosition = new Vector3(6f, 3f, 1.5f);
+					transform.position = spawnPosition;
                     
                 }
             }
