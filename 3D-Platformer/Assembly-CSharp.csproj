@@ -97,6 +97,7 @@
      <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
      <Compile Include="Assets\Scripts\Weapons\WeaponHandler.cs" />
      <Compile Include="Assets\SelectOnInput.cs" />
+     <Compile Include="Assets\Singleton.cs" />
      <Compile Include="Assets\SkyboxAssets\SkyBox HDR\examplescene.cs" />
      <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\SubAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
