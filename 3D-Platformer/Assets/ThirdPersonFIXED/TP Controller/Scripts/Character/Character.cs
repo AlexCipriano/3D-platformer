@@ -185,6 +185,7 @@ public class Character : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Checkpoint")) {
             inCheckpoint = true;
+            other.GetComponent<ParticleSystem>().Play();
             spawnPosition = other.gameObject.transform.position;
         }
         if (other.gameObject.CompareTag("Scene1"))
