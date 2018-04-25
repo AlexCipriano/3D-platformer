@@ -1,13 +1,14 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PauseMenu.cs">
+﻿<Properties StartupItem="3D-Platformer.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AssetsforLevelFour\TrapOpen.cs">
     <Files>
       <File FileName="Assets\Main Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" Line="1" Column="1" />
       <File FileName="Assets\loadSceneOnClick.cs" Line="1" Column="1" />
-      <File FileName="Assets\QuitOnClick.cs" Line="14" Column="3" />
+      <File FileName="Assets\QuitOnClick.cs" Line="1" Column="1" />
       <File FileName="Assets\ThirdPersonFIXED\TP Controller\Scripts\Character\Character.cs" Line="1" Column="1" />
       <File FileName="Assets\PauseMenu.cs" Line="50" Column="2" />
-      <File FileName="Assets\SelectOnInput.cs" Line="29" Column="3" />
+      <File FileName="Assets\SelectOnInput.cs" Line="1" Column="1" />
+      <File FileName="Assets\AssetsforLevelFour\TrapOpen.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
