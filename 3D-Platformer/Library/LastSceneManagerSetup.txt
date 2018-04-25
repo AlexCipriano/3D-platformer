@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/GameHub.unity
+=======
+- path: Assets/Scenes/Alex.unity
+>>>>>>> 75b885f147c53923a06f291f6a4952b9db464db2
   isLoaded: 1
   isActive: 1
