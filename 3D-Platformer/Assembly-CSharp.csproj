@@ -81,6 +81,7 @@
      <Compile Include="Assets\Main Menu\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\menuController.cs" />
      <Compile Include="Assets\MoveRandomly.cs" />
+     <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\Player &amp; Camera\CameraController.cs" />
      <Compile Include="Assets\Player &amp; Camera\Player_Controller.cs" />
      <Compile Include="Assets\QuitOnClick.cs" />
