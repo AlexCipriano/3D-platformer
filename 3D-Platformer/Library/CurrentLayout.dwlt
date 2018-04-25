@@ -108,10 +108,10 @@ MonoBehaviour:
     y: 30
     width: 1752
     height: 844
-  m_MinSize: {x: 913, y: 271}
-  m_MaxSize: {x: 22008, y: 10021}
+  m_MinSize: {x: 911, y: 271}
+  m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 126
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,8 +206,8 @@ MonoBehaviour:
     y: 0
     width: 324
     height: 844
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -318,14 +318,14 @@ MonoBehaviour:
     height: 823
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 142.82597655035144
+  lastFramingTime: 489.170773776202
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 216.43039, y: 645.4678, z: 313.3584}
+    m_Target: {x: 216.43039, y: 655.5714, z: 313.3584}
     speed: 2
-    m_Value: {x: 216.43039, y: 645.4678, z: 313.3584}
+    m_Value: {x: 216.43039, y: 655.5714, z: 313.3584}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -349,13 +349,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.004056242, y: 0.9868778, z: 0.15945221, w: 0.025114192}
+    m_Target: {x: 0.000010597411, y: 0.999979, z: -0.0063120727, w: 0.0014424676}
     speed: 2
-    m_Value: {x: -0.004056242, y: 0.9868778, z: 0.15945221, w: 0.025114192}
+    m_Value: {x: 0.000010597412, y: 0.9999791, z: -0.006312073, w: 0.0014424677}
   m_Size:
-    m_Target: 199.27313
+    m_Target: 34.665264
     speed: 2
-    m_Value: 199.27313
+    m_Value: 34.665264
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 92760000
-    m_LastClickedID: 30354
-    m_ExpandedIDs: 7e9effff9efbffff00000000e46a00002a6b0000766b0000507600006a760000b4760000
+    m_SelectedIDs: c0b60000
+    m_LastClickedID: 46784
+    m_ExpandedIDs: 740bfeff181cfeff6c4cfeffc09ffeff88bcfeff22d0feffdadafeffd612ffff701dffffd027ffff6066ffffde76ffff8881ffff8482ffff34afffff2af5ffff42f6ffffc8f6ffffccf6ffff9efbffff0000000096a00000dca0000028a10000cca5000016a600008ea60000d4a600002aa7000068a90000b2a9000030aa000076aa0000ccaa00000aad000054ad0000ccad000012ae000068ae0000fcae000078b00000a6b00000f0b0000068b10000aeb1000004b20000b6b5000000b600007ab60000c0b6000016b70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 7}
     m_SearchString: 
   m_ExpandedScenes:
-  - Alex
+  - GameHub
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -460,19 +460,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Alex\Documents\Developer\Unity Games\3D-Platformer\3D-platformer\3D-Platformer
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6280000
-    m_LastClickedID: 10438
-    m_ExpandedIDs: 00000000c62800002e2c0000c8300000743300009a330000dc33000082360000083c0000143c0000883d0000d63f000078440000f04f0000b4500000ce500000c65200005e540000b65800005c590000605a0000f05b0000a0600000aa62000070630000f0630000a6640000a8640000f665000044680000f66e0000f86e0000fa6e0000fc6e0000fe6e0000006f0000026f0000046f0000066f0000086f00000a6f00000c6f00000e6f0000106f0000126f0000146f0000166f0000186f00001a6f00001c6f00001e6f0000206f0000226f0000246f0000266f0000286f00002a6f00002c6f00002e6f0000306f0000326f0000346f0000366f0000386f00003a6f00003c6f00003e6f0000406f0000426f0000ffffff7f
+    m_SelectedIDs: 74330000
+    m_LastClickedID: 13172
+    m_ExpandedIDs: 00000000c62800002e2c0000c8300000743300009a330000dc33000082360000083c0000143c0000883d0000d63f000078440000f04f0000b4500000ce500000c65200005e540000b65800005c590000605a0000f05b0000a0600000aa62000070630000f0630000a6640000a8640000f665000044680000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000306c0000326c0000346c0000366c0000386c00003a6c00003c6c00003e6c0000406c0000426c0000446c0000466c0000486c00004a6c00004c6c00004e6c0000506c0000526c0000546c0000566c0000586c00005a6c00005c6c00005e6c0000606c0000626c0000646c0000666c0000686c00006a6c00006c6c00006e6c0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +500,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c62800002e2c0000c8300000743300009a330000dc33000082360000083c0000143c0000883d0000d63f000078440000f04f0000b4500000ce500000c65200005e540000b65800005c590000605a0000f05b0000a0600000aa62000070630000f0630000a6640000a8640000f665000044680000f66e0000f86e0000fa6e0000fc6e0000fe6e0000006f0000026f0000046f0000066f0000086f00000a6f00000c6f00000e6f0000106f0000126f0000146f0000166f0000186f00001a6f00001c6f00001e6f0000206f0000226f0000246f0000266f0000286f00002a6f00002c6f00002e6f0000306f0000326f0000346f0000366f0000386f00003a6f00003c6f00003e6f0000406f0000426f0000
+    m_ExpandedIDs: 00000000c62800002e2c0000c8300000743300009a330000dc33000082360000083c0000143c0000883d0000d63f000078440000f04f0000b4500000ce500000c65200005e540000b65800005c590000605a0000f05b0000a0600000aa62000070630000f0630000a6640000a8640000f665000044680000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000306c0000326c0000346c0000366c0000386c00003a6c00003c6c00003e6c0000406c0000426c0000446c0000466c0000486c00004a6c00004c6c00004e6c0000506c0000526c0000546c0000566c0000586c00005a6c00005c6c00005e6c0000606c0000626c0000646c0000666c0000686c00006a6c00006c6c00006e6c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,7 +552,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 2769}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 147
 --- !u!114 &14

@@ -38,4 +38,14 @@ public class PauseMenu : MonoBehaviour {
 		Time.timeScale = 0f;
 		paused = true;
 	}
+
+	public void Quit() 
+	{
+		#if UNITY_EDITOR
+		UnityEditor.EditorApplication.isPlaying = false;
+		#else
+		Application.Quit();
+		#endif
+	}
+
 }
