@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class CharacterStats : MonoBehaviour {
 
-	[Range(0, 10)] public float health = 10;
+	[Range(0, 10)] public float health = 5;
 	public int faction;
 	public int gemCount;
 	public Text gemText;
