@@ -79,6 +79,11 @@ public class Character : MonoBehaviour
         this.UpdateHorizontalSpeed();
         this.ApplyMotion();
 
+		if (Input.GetKeyDown(KeyCode.H))
+		{
+				stats.health = stats.health + 1;
+		}
+
         if (inScene1) {
             if (Input.GetKeyDown(KeyCode.F)) {
                 SceneManager.LoadScene("LevelOne");
